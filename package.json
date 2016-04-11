@@ -1,0 +1,28 @@
+{
+  "name": "laravel-elixir-htmlmin",
+  "version": "0.0.1",
+  "description": "Laravel Elixir htmlmin Extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "htmlmin",
+    "gulp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrcsmcln/laravel-elixir-htmlmin"
+  },
+  "author": "Marcus McLean",
+  "license": "MIT",
+  "homepage": "https://github.com/mrcsmcln/laravel-elixir-htmlmin",
+  "bugs": {
+    "url": "https://github.com/mrcsmcln/laravel-elixir-htmlmin/issues"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^1.3.0"
+  }
+}

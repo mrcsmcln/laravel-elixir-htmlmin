@@ -55,7 +55,7 @@ Elixir.extend('htmlmin', function (src, output, options) {
             ).pipe(gulp.dest(paths.output.baseDir))
             .pipe(new Elixir.Notification('HTML Minified!'))
         ;
-    }).watch(config.get('assets.templating.htmlmin.folder') + '/**/*.html')
+    }).watch(config.get('assets.templating.htmlmin.folder') + '/**/*.{html,php}')
     .ignore(paths.output.path)
 });
 

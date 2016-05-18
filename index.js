@@ -36,7 +36,16 @@ Elixir.extend('htmlmin', function (src, output, options) {
             collapseBooleanAttributes: true,
             removeScriptTypeAttributes: true,
             removeStyleLinkTypeAttributes: true,
-            caseSensitive: true
+            caseSensitive: true,
+            decodeEntities: true,
+            minifyCSS: true,
+            uglifyJS: true,
+            sortAttributes: true,
+            sortClassName: true,
+            useShortDoctype: true,
+            removeAttributeQuotes: true,
+            removeEmptyAttributes: true,
+            removeOptionalTags: true
         }
     }, config.templating.htmlmin);
 
